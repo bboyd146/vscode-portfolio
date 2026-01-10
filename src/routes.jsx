@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import WorkspaceLayout from "./layouts/WorkspaceLayout";
 import SimpleLayout from "./layouts/SimpleLayout";
 
@@ -14,7 +14,7 @@ import PixelPioneer from "./pages/projects/PixelPioneer";
 import SimpleCacheSimulator from "./pages/projects/SimpleCacheSimulator";
 import CompanyDatabase from "./pages/projects/CompanyDatabase";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     element: <WorkspaceLayout />,
     children: [

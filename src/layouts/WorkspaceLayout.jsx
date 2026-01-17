@@ -11,7 +11,7 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import RightSidebar from "../components/RightSidebar";
 import { workspace } from "../data/workspace";
 import { flattenWorkspace } from "../utils/flattenWorkspace";
-import resume from "../../public/resume.pdf";
+import resumePdf from "../../public/resume.pdf";
 
 function flatten(items, out = []) {
   for (const it of items) {

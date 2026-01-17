@@ -1,4 +1,4 @@
-// import resume from "../../public/resume.pdf";
+import resume from "../../public/resume.pdf";
 import { useNavigate } from "react-router-dom";
 
 export default function StartHere() {

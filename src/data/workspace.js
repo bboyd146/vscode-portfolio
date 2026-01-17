@@ -14,6 +14,7 @@ export const workspace = [
       { type: "file", id: "database", label: "Company_Database.md", route: "/projects/company-database" },
       { type: "file", id: "cache", label: "Simple_Cache_Simulator.md", route: "/projects/simple-cache-simulator" },
       { type: "file", id: "pixel", label: "PixelPioneer_Services.md", route: "/projects/pixelpioneer" },
+      { type: "file", id: "nexus", label: "AI_Nexus.md", route: "/projects/ai-nexus" },
     ],
   },
   { type: "file", id: "exp", label: "EXPERIENCE.log", route: "/experience" },

@@ -30,7 +30,7 @@ return (
                 <button
                     type="button"
                     className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/15"
-                    onClick={() => navigate("/resume.pdf")}
+                    onClick={() => window.open(resume, "_blank", "noopener,noreferrer")}
                 >
                     Download Resume
                 </button>

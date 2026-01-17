@@ -13,6 +13,7 @@ import LeadFollowup from "./pages/projects/LeadFollowup";
 import PixelPioneer from "./pages/projects/PixelPioneer";
 import SimpleCacheSimulator from "./pages/projects/SimpleCacheSimulator";
 import CompanyDatabase from "./pages/projects/CompanyDatabase";
+import AiNexus from "./pages/projects/AiNexus";
 
 export const router = createHashRouter([
   {
@@ -25,12 +26,11 @@ export const router = createHashRouter([
       { path: "/contact", element: <Contact /> },
       { path: "/projects/ai-receptionist", element: <AiReceptionist /> },
       { path: "/projects/lead-followup", element: <LeadFollowup /> },
+      { path: "/projects/ai-nexus", element: <AiNexus /> },
       { path: "/projects/company-database", element: <CompanyDatabase /> },
       { path: "/projects/simple-cache-simulator", element: <SimpleCacheSimulator /> },
       { path: "/projects/pixelpioneer", element: <PixelPioneer /> },
     ],
   },
 
-  // Optional: you can also mount SimpleLayout as a separate route base if you want,
-  // but easiest is a responsive toggle inside WorkspaceLayout.
 ]);

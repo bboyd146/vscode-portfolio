@@ -42,7 +42,7 @@ return (
         </div>
 
         {/* Integrated Terminal */}
-<div className="rounded-2xl border border-vscodeBorder bg-[#1e1e1e] overflow-hidden">
+<div className="rounded-2xl border border-vscodeBorder bg-[#1e1e1e] p-1">
   {/* Terminal Header */}
   <div className="flex items-center justify-between px-4 py-2 border-b border-vscodeBorder bg-[#252526]">
     <div className="text-xs text-vscodeMuted">
@@ -56,23 +56,23 @@ return (
   </div>
 
   {/* Terminal Body */}
-  <div className="p-4 font-mono text-sm text-white space-y-1">
-    <div className="text-white/70">
+  <div className="p-4 font-mono text-sm text-white space-y-1 overflow-x-auto">
+    <div className="text-red-400 whitespace-wrap">
       bradley@portfolio:~/newemployer/lookingfordeveloper/myportfolio$
     </div>
 
     <div>
       <span className="text-green-400">echo</span>{" "}
       <span className="text-yellow-300">
-        "if potential employer please hire me"
+        "if potential employer.. please hire me"
       </span>
     </div>
 
     <div className="text-white/80">
-      if potential employer please hire me
+      if potential employer.. please hire me
     </div>
 
-    <div className="mt-2 text-white/70">
+    <div className="mt-2 text-red-400 whitespace-wrap">
       bradley@portfolio:~/newemployer/lookingfordeveloper/myportfolio$
     </div>
 
@@ -94,10 +94,13 @@ return (
       </div>
     </div>
 
-    <div className="mt-2 text-white/70">
+    <div className="mt-2 text-red-400 whitespace-wrap">
       bradley@portfolio:~/newemployer/lookingfordeveloper/myportfolio$
-      <span className="animate-pulse">▌</span>
     </div>
+    <p className="mt-2 text-vscodeMuted text-xs">
+      (Simulated terminal for effect. No actual commands can be run here.)
+            <span className="json-caret">▌</span>
+    </p>
   </div>
 </div>
 

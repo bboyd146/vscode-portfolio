@@ -14,6 +14,9 @@ import PixelPioneer from "./pages/projects/PixelPioneer";
 import SimpleCacheSimulator from "./pages/projects/SimpleCacheSimulator";
 import CompanyDatabase from "./pages/projects/CompanyDatabase";
 import AiNexus from "./pages/projects/AiNexus";
+import AllProjects from "./pages/projects/AllProjects";
+import AllN1PestControl from "./pages/projects/AllN1PestControl";
+import ResoluteTaxCPA from "./pages/projects/ResoluteTaxCPA";
 
 export const router = createHashRouter([
   {
@@ -24,12 +27,15 @@ export const router = createHashRouter([
       { path: "/experience", element: <Experience /> },
       { path: "/skills", element: <Skills /> },
       { path: "/contact", element: <Contact /> },
+      { path: "/projects", element: <AllProjects /> },
       { path: "/projects/ai-receptionist", element: <AiReceptionist /> },
       { path: "/projects/lead-followup", element: <LeadFollowup /> },
-      { path: "/projects/ai-nexus", element: <AiNexus /> },
       { path: "/projects/company-database", element: <CompanyDatabase /> },
       { path: "/projects/simple-cache-simulator", element: <SimpleCacheSimulator /> },
       { path: "/projects/pixelpioneer", element: <PixelPioneer /> },
+      { path: "/projects/ai-nexus", element: <AiNexus /> },
+      { path: "/projects/alln1-pest-control", element: <AllN1PestControl /> },
+      { path: "/projects/resolute-tax-cpa", element: <ResoluteTaxCPA /> },
     ],
   },
 

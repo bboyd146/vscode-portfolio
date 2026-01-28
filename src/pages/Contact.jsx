@@ -69,7 +69,7 @@ return (
         <section className="rounded-2xl border border-white/10 bg-[#252526]/60 p-6 space-y-3">
             <h2 className="text-lg font-semibold">Links</h2>
             <p className="text-white/70 text-sm">
-                Replace these with your real URLs (LinkedIn / GitHub / Portfolio).
+                Feel free to visit my social profiles.
             </p>
 
             <div className="flex flex-wrap gap-2">

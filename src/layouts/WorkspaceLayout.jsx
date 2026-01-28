@@ -44,7 +44,7 @@ export default function WorkspaceLayout() {
         hint: "mailto:braddboyd5@gmail.com",
         run: () =>
           window.location.assign(
-            "mailto:braddboyd5@gmail.com?subject=Project%20Inquiry"
+            "mailto:braddboyd5@gmail.com?subject=Project%20Inquiry",
           ),
       },
       {
@@ -126,13 +126,16 @@ export default function WorkspaceLayout() {
               <Explorer
                 tree={workspace}
                 activeRoute={loc.pathname}
-onOpen={(item) => {
-  if (item.type === "action" && item.action === "downloadResume") {
-    window.open(resumePdf, "_blank", "noopener,noreferrer");
-    return;
-  }
-  nav(item.route);
-}}
+                onOpen={(item) => {
+                  if (
+                    item.type === "action" &&
+                    item.action === "downloadResume"
+                  ) {
+                    window.open(resumePdf, "_blank", "noopener,noreferrer");
+                    return;
+                  }
+                  nav(item.route);
+                }}
               />
             </div>
           </>

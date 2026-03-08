@@ -35,7 +35,7 @@ export const router = createHashRouter([
       { path: "/projects/pixelpioneer", element: <PixelPioneer /> },
       { path: "/projects/ai-nexus", element: <AiNexus /> },
       { path: "/projects/alln1-pest-control", element: <AllN1PestControl /> },
-      { path: "/projects/resolute-tax-cpa", element: <ResoluteTaxCPA /> },
+      { path: "/projects/gibson-tax-cpa", element: <ResoluteTaxCPA /> },
     ],
   },
 

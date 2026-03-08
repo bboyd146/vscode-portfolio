@@ -8,7 +8,7 @@ export default function ResoluteTaxCPA() {
       {/* Header */}
       <header className="space-y-2">
         <h1 className="text-3xl font-semibold tracking-tight">
-          CLIENT_Resolute_Tax_CPA.md
+          CLIENT_Gibson_Tax_CPA.md
         </h1>
 
         <p className="text-white/70">
@@ -107,7 +107,7 @@ export default function ResoluteTaxCPA() {
         <h2 className="text-lg font-semibold m-6">Links</h2>
                 <a
                     className="px-3 py-2 rounded-xl bg-white/8 hover:bg-white/12 text-sm m-6 px-4 py-2"
-                    href="https://resolutetaxcpa.com/"
+                    href="https://gibsontaxcpa.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

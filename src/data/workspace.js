@@ -17,7 +17,7 @@ export const workspace = [
       { type: "file", id: "pixel", label: "PixelPioneer_Services.md", route: "/projects/pixelpioneer" },
       { type: "file", id: "nexus", label: "AI_Nexus.md", route: "/projects/ai-nexus" },
       { type: "file", id: "n1pest", label: "AllN1_Pest_Control.md", route: "/projects/alln1-pest-control" },
-      { type: "file", id: "resolute", label: "Resolute_Tax_CPA.md", route: "/projects/resolute-tax-cpa" },
+      { type: "file", id: "gibson", label: "Gibson_Tax_CPA.md", route: "/projects/gibson-tax-cpa" },
     ],
   },
   { type: "file", id: "exp", label: "EXPERIENCE.log", route: "/experience" },

@@ -5,8 +5,8 @@ import alln1Img from "../../assets/alln1/homepage.png";
 const projects = [
   // 🔹 CLIENT PROJECTS
   {
-    title: "Resolute Tax & Accounting, CPA",
-    path: "/projects/resolute-tax-cpa",
+    title: "Gibson Tax & Accounting, CPA",
+    path: "/projects/gibson-tax-cpa",
     description:
       "Client website development and SEO optimization for a licensed CPA firm, focused on trust, clarity, and performance.",
     tech: ["Client Work", "SEO", "WordPress", "Performance"],
@@ -18,7 +18,7 @@ const projects = [
     path: "/projects/alln1-pest-control",
     description:
       "Production website development and ongoing SEO management for a local service business competing in local search.",
-    tech: ["Client Work", "SEO", "Local Search", "Optimization"],
+    tech: ["Client Work", "Wordpress", "SEO", "Local Search", "Optimization"],
     type: "client",
     image: alln1Img,
   },
